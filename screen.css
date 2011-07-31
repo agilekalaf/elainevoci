@@ -1,0 +1,74 @@
+/* screen.css */
+body { 
+	margin: 0; 
+	background: #AB734E;	
+	line-height: 1.6em;
+	font-family: Verdana, Helvetica, Geneva, Arial, sans-serif;
+}
+h1, p, ul { 
+	margin: 0;
+	padding: 10px;
+}
+ul { 
+	list-style-type: none;
+	}	
+ul li {
+	margin: 0 0 10px 0; 
+	padding: 0;
+	}
+.active {
+	background: #ccc;
+}	
+#wrap {
+	margin: 0 auto; 
+	padding: 10px 20px 20px 20px; 
+	width: 800px; 
+	background: #fff;
+	border-top: 10px solid #BFBFBF;
+}
+#header { 
+	background: #fff;
+	height: 150px;
+	}	
+#nav {
+	margin: 0px 0 0 0; 
+	padding: 0px;
+	background: #044375; 
+	border-top: 5px solid #8F8F8F;
+	font-family:"Helvetica", sans-serif;
+	}	
+#nav ul li { 
+	display: inline;
+	margin: 0 10px 0 10px;
+	}	
+#nav a { 
+	color: #fff;
+	}
+#nav a:hover {
+	color: #FFFF00;
+}
+#content-left{ 
+	float: left;
+	width: 230px;
+	margin: 20px 20px 20px 0; 
+	background: #ccc	;
+	}	
+#content-right	{ 
+		float: left;
+		width: 520px;
+		margin: 20px 20px 20px 0; 
+		background: #fff;
+		}	
+#workshop-content-right ul {
+	list-style-type: circle;
+	margin: 0 0 0 0; 
+	padding: 40px;
+}		
+#footer { 
+	clear: both;
+	font-size: 50%;
+	text-align: center;
+	padding: 10px;
+	background: #EDC9AF;
+	border-top:5px solid #BFBFBF;
+}
