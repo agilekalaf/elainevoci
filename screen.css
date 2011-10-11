@@ -72,3 +72,6 @@ ul li {
 	background: #EDC9AF;
 	border-top:5px solid #BFBFBF;
 }
+#wrap #content-right strong {
+	color: #F00;
+}
