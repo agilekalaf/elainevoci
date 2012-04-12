@@ -12,6 +12,9 @@ h1, p, ul {
 ul { 
 	list-style-type: none;
 	}	
+ul.faq { 
+	list-style-type:circle; 
+	}
 ul li {
 	margin: 0 0 10px 0; 
 	padding: 0;
@@ -73,5 +76,5 @@ ul li {
 	border-top:5px solid #BFBFBF;
 }
 #wrap #content-right strong {
-	color: #F00;
+	color: #000;
 }
