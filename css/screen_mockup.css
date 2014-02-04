@@ -25,13 +25,14 @@ ul li {
 #wrap {
 	margin: 0 auto; 
 	padding: 10px 20px 20px 20px; 
-	width: 800px; 
+	width: 80vw; 
 	background: #fff;
 	border-top: 10px solid #BFBFBF;
 }
 #header { 
 	background: #fff;
 	height: 150px;
+	width: 100%;
 	}	
 #nav {
 	margin: 0px 0 0 0; 
@@ -39,6 +40,8 @@ ul li {
 	background: #044375; 
 	border-top: 5px solid #8F8F8F;
 	font-family:"Helvetica", sans-serif;
+	width: 100%;
+	max-width: 100%;
 	}	
 #nav ul li { 
 	display: inline;
@@ -52,19 +55,19 @@ ul li {
 }
 #content-left{ 
 	float: left;
-	width: 230px;
+	width: 30%;
 	margin: 20px 20px 20px 0; 
 	background: #ccc;
 	}	
 #women-speaker{
 	float:inherit;
-	width: 230px;
+	width: 30%;
 	margin: 20px 20px 20px 0;
 	background: #fff;
 }
 #content-right	{ 
 		float: left;
-		width: 520px;
+		width: 65%;
 		margin: 20px 20px 20px 0; 
 		background: #fff;
 		}	
