@@ -10,62 +10,50 @@ var evApp = angular.module('evApp',[]).
                 })
             .when('/bookstudy',
                 {
-                    controller:'SimpleController',
                     templateUrl:'app/partials/bookstudy.html'
                 })
             .when('/caregiver',
                 {
-                    controller:'SimpleController',
                     templateUrl:'app/partials/caregiver.html'
                 })
             .when('/resources',
                 {
-                    controller:'SimpleController',
                     templateUrl:'app/partials/resources.html'
                 })
             .when('/contact',
                 {
-                    controller:'SimpleController',
                     templateUrl:'app/partials/contact.html'
                 })
             .when('/creating_work_you_love',
                 {
-                    controller:'SimpleController',
                     templateUrl:'app/partials/cwyl.html'
                 })
             .when('/ebook',
                 {
-                    controller:'SimpleController',
                     templateUrl:'app/partials/ebook.html'
                 })
             .when('/ebook_video',
                 {
-                    controller:'SimpleController',
                     templateUrl:'app/partials/ebook_video.html'
                 })
             .when('/faq',
                 {
-                    controller:'SimpleController',
                     templateUrl:'app/partials/faq.html'
                 })
             .when('/404',
                 {
-                    controller:'SimpleController',
                     templateUrl:'app/partials/404.html'
                 })
             .when('/publications',
                 {
-                    controller:'SimpleController',
                     templateUrl:'app/partials/publication.html'
                 })
             .when('/workshops',
                 {
-                    controller:'SimpleController',
                     templateUrl:'/app/partials/ws.html'
                 })
             .when('/testimonials',
                 {
-                    controller:'SimpleController',
                     templateUrl:'app/partials/testimonials.html'
                 })
             .when('/newsletter',
@@ -76,9 +64,9 @@ var evApp = angular.module('evApp',[]).
                 {
                     templateUrl:'app/partials/speaking.html'
                 })
-            .when('/paypal',
+            .when('/paypals',
                 {
-                    templateUrl:'app/partials/paypal.html'
+                    templateUrl:'app/partials/paypals.html'
                 })
             .when('/successfully_managing_personal_life_transitions',
                 {
