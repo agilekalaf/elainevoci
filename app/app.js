@@ -50,7 +50,7 @@ var evApp = angular.module('evApp',[]).
                 })
             .when('/workshops',
                 {
-                    templateUrl:'/app/partials/ws.html'
+                    templateUrl:'app/partials/ws.html'
                 })
             .when('/testimonials',
                 {
@@ -63,10 +63,6 @@ var evApp = angular.module('evApp',[]).
             .when('/speaking_engagements',
                 {
                     templateUrl:'app/partials/speaking.html'
-                })
-            .when('/paypals',
-                {
-                    templateUrl:'app/partials/paypals.html'
                 })
             .when('/successfully_managing_personal_life_transitions',
                 {
