@@ -22,6 +22,10 @@ body {
     padding: 2em;
 }
 
+#content-right ul {
+	list-style-type:circle;
+}
+
 ul {
     list-style-type: none;
     }
