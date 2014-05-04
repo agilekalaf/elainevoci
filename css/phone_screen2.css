@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* phone_screen.css */
+body { 
+	margin: 0; 
+	background: #AB734E;	
+	line-height: 1.6em;
+	font-family: Verdana, Helvetica, Geneva, Arial, sans-serif;
+}
+h1, p, ul { 
+	margin: 0;
+	padding: 10px;
+}
+ul { 
+	list-style-type: none;
+	}	
+ul.faq { 
+	list-style-type:circle; 
+	}
+ul li {
+	margin: 0 0 10px 0; 
+	padding: 0;
+	}
+.active {
+	background: #ccc;
+}
+#wrap { 
+	padding: 0px 0px 0px 0px; 
+	width: 87vw; 
+	margin-bottom: 0;
+	margin-left: 3em;
+	margin-right: 0;
+	margin-top: 0;
+	background: #fff;
+	border-top: 10px solid #BFBFBF;
+	font-family: sans-serif;
+	font-size: xx-small;
+}
+#header { 
+	background: #fff;
+	height: 150px;
+	}	
+#header img {
+	width: 100%;
+	height: initial;
+	position: fixed;
+	margin-top: -2em;
+	margin-left: -3em;
+}
+#nav {
+	padding: 0px;
+	background: #044375; 
+	border-top: 5px solid #8F8F8F;
+	font-family:"Helvetica", sans-serif;
+	direction: initial;
+	margin-left: -3em;
+	margin-top: -11em;
+	width: 115%;
+	margin-bottom: auto;
+	}	
+#nav ul li { 
+	display: inline;
+	margin: 0 10px 0 10px;
+	}	
+#nav a { 
+	color: #fff;
+	}
+#nav a:hover {
+	color: #FFFF00;
+}
+#content-left{ 
+	float: left;
+	width: 230px;
+	margin: 20px 20px 20px 0; 
+	background: #ccc;
+	display:none;
+	}	
+#content-right	{ 
+		float: left;
+		width: 100%;
+		/*margin: 10px 20px 20px 10px; */
+		background: #fff;
+		}	
+#content-right img {
+    display: none;
+    size: initial;
+
+}
+#workshop-content-right ul {
+	list-style-type: circle;
+	margin: 0 0 0 0; 
+	padding: 40px;
+}		
+#footer { 
+	clear: both;
+	font-size: 50%;
+	text-align: -webkit-center;
+	padding: 0px;
+	background: #EDC9AF;
+	border-top:5px solid #BFBFBF;
+	height: 11vw;
+	display: inline-flex;
+	width: 100vw;
+	margin-left: -3em;
+}
+#wrap #content-right strong {
+	color: #000;
+}

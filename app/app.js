@@ -1,0 +1,72 @@
+/**
+ * Created by gjbelang on 3/7/14.
+ */
+var evApp = angular.module('evApp',[]).
+    config(function($routeProvider) {
+        $routeProvider.
+            when('/',{
+                    controller: 'SimpleController',
+                    templateUrl:'app/partials/main.html'
+                })
+            .when('/bookstudy',
+                {
+                    templateUrl:'app/partials/bookstudy.html'
+                })
+            .when('/caregiver',
+                {
+                    templateUrl:'app/partials/caregiver.html'
+                })
+            .when('/resources',
+                {
+                    templateUrl:'app/partials/resources.html'
+                })
+            .when('/contact',
+                {
+                    templateUrl:'app/partials/contact.html'
+                })
+            .when('/creating_work_you_love',
+                {
+                    templateUrl:'app/partials/cwyl.html'
+                })
+            .when('/ebook',
+                {
+                    templateUrl:'app/partials/ebook.html'
+                })
+            .when('/ebook_video',
+                {
+                    templateUrl:'app/partials/ebook_video.html'
+                })
+            .when('/faq',
+                {
+                    templateUrl:'app/partials/faq.html'
+                })
+            .when('/404',
+                {
+                    templateUrl:'app/partials/404.html'
+                })
+            .when('/publications',
+                {
+                    templateUrl:'app/partials/publication.html'
+                })
+            .when('/workshops',
+                {
+                    templateUrl:'app/partials/ws.html'
+                })
+            .when('/testimonials',
+                {
+                    templateUrl:'app/partials/testimonials.html'
+                })
+            .when('/newsletter',
+                {
+                    templateUrl:'app/partials/newsletter.html'
+                })
+            .when('/speaking_engagements',
+                {
+                    templateUrl:'app/partials/speaking.html'
+                })
+            .when('/successfully_managing_personal_life_transitions',
+                {
+                    templateUrl:'app/partials/smplt.html'
+                })
+            .otherwise({ redirectTo: '/404'});
+});

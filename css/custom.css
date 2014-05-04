@@ -1,0 +1,40 @@
+@import url("foundation.css");
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif);
+
+body {
+	margin: 0;
+	background: #AB734E;
+	line-height: 1.6em;
+	font-family: Verdana, Helvetica, Geneva, Arial, sans-serif;
+}
+
+#wrap {
+    background-color: #FFF;
+}
+
+#content-left {
+    background-color: #ccc;
+    margin: 1em;
+
+}
+#content-right {
+    margin-left: -2em;
+    padding: 2em;
+}
+
+#content-right ul {
+	list-style-type:circle;
+}
+
+ul {
+    list-style-type: none;
+    }
+
+#exp ul {
+    list-style-type: disc;
+}
+
+#footer {
+    text-align: -webkit-center;
+    background-color: burlywood;
+}
