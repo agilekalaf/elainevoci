@@ -68,5 +68,9 @@ var evApp = angular.module('evApp',[]).
                 {
                     templateUrl:'app/partials/smplt.html'
                 })
+			.when('/jobloss',
+				{
+					templateUrl:'app/partials/jobloss.html'
+				})
             .otherwise({ redirectTo: '/404'});
 });
