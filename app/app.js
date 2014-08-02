@@ -72,5 +72,9 @@ var evApp = angular.module('evApp',[]).
 				{
 					templateUrl:'app/partials/jobloss.html'
 				})
+			.when('/deathcafe',
+				{
+					templateUrl:'app/partials/deathcafe.html'
+				})
             .otherwise({ redirectTo: '/404'});
 });
